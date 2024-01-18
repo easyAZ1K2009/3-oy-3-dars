@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: "Montserrat";
+  background: var(--cream-bg, #f2eae2);
+}
+
+.container {
+  width: 600px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background: var(--Pure-White, #fff);
+}
+
+.container__left {
+  width: 337.694px;
+  height: 450px;
+  flex-shrink: 0;
+}
+
+.container__right {
+  width: 262.306px;
+  height: 450px;
+}
+
+h5 {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Overline */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+
+.container__left--text {
+  width: 250px;
+  height: 400px;
+  margin-top: 70px;
+  gap: 30px;
+}
+
+h2 {
+  width: 236px;
+  color: var(--Gunmetal, #1c232b);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Display */
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+
+p {
+  width: 237px;
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 164.286% */
+}
+
+.h2 {
+  color: var(--Deep-Aquamarine, #3d8168);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Display */
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+
+button {
+  width: 236px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Deep-Aquamarine, #3d8168);
+
+  color: var(--Pure-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Button Text */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  border: solid 1px #3d8168;
+}
+
+button:hover {
+  background-color: #1c232b;
+  transition: all 0.05s;
+}
+
+img {
+  border-radius: 10px 0 0 10px;
+}
