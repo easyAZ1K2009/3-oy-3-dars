@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: "Montserrat";
+  font-family: "Montserrat" "Fraunces";
   background: var(--cream-bg, #f2eae2);
 }
 
@@ -109,6 +109,7 @@ button {
 button:hover {
   background-color: #1c232b;
   transition: all 0.05s;
+  border: solid 1px black;
 }
 
 img {
